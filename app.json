@@ -1,0 +1,22 @@
+{
+  "name": "AHMAD-MD",
+  "description": "Javascript WhatsApp bot made by AHMAD Tech",
+  "logo": "https://files.catbox.moe/0eylom.jpg",
+  "keywords": ["AHMAD-BOT"],
+  "success_url": "/",
+  "stack": "container",
+  
+  "env": {
+    "MONGODB_URL": {
+      "description": "MongoDB connection string for database storage",
+      "required": false
+    }
+  },
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-26"
+}
